@@ -157,5 +157,4 @@ All tests passed.
 
 Candidate:  
 Gauri Desai  
-Round 2 Technical Assignment – Customer Engineer  
-BrowserStack
+Round 2 Technical Assignment – Customer Engineer at BrowserStack
