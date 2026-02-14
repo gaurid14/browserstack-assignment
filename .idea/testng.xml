@@ -1,0 +1,51 @@
+<suite name="Parallel Suite" parallel="tests" thread-count="5">
+
+    <test name="Chrome-Win11">
+        <parameter name="browserName" value="Chrome"/>
+        <parameter name="browserVersion" value="latest"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <classes>
+            <class name="ScraperTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox-Win11">
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="browserVersion" value="latest"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <classes>
+            <class name="ScraperTest"/>
+        </classes>
+    </test>
+
+    <test name="Safari-Mac">
+        <parameter name="browserName" value="Safari"/>
+        <parameter name="browserVersion" value="latest"/>
+        <parameter name="os" value="OS X"/>
+        <parameter name="osVersion" value="Ventura"/>
+        <classes>
+            <class name="ScraperTest"/>
+        </classes>
+    </test>
+
+    <test name="iPhone14">
+        <parameter name="browserName" value="safari"/>
+        <parameter name="deviceName" value="iPhone 14"/>
+        <parameter name="osVersion" value="16"/>
+        <classes>
+            <class name="ScraperTest"/>
+        </classes>
+    </test>
+
+    <test name="SamsungS22">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="deviceName" value="Samsung Galaxy S22"/>
+        <parameter name="osVersion" value="13.0"/>
+        <classes>
+            <class name="ScraperTest"/>
+        </classes>
+    </test>
+
+</suite>
